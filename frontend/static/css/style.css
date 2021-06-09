@@ -1,0 +1,50 @@
+.coin{
+  opacity: 0.7;
+}
+
+.coin:hover{
+  opacity: 0.8;
+}
+
+.coin:active{
+  opacity: 1;
+}
+
+.coin:disabled{
+  opacity: 0.3;
+}
+
+.boost{
+  height: 100px;
+  width: 150px;
+}
+
+.boost-wrapper{
+  margin-top: 300px;
+  display: flex;
+   flex-direction: row;
+   flex: 1;
+   flex-wrap: wrap
+}
+
+.boost-holder{
+  width: 200px;
+  height: 200px;
+  background: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.auto{
+  background: forestgreen;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
